@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adeyemo Philip | Frontend Developer Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Custom Neon Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Header / Navbar -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-code"></i></span>
+                <span class="logo-text">PHILIP</span>
+            </a>
+            <nav class="nav-links" id="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="nav-btn-box">
+                <a href="#contact" class="neon-btn">CONTACT ME</a>
+            </div>
+            <button class="menu-toggle" id="mobile-menu" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-glow"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h5 class="hero-subtitle">Hi, I'm Adeyemo Philip</h5>
+                <h1 class="hero-title">I Build <span class="typed-text">Digital Experiences</span> That People Love to Use</h1>
+                <p class="hero-description">Frontend Developer &amp; Software Engineer with over 2 years of experience crafting high-performance, clean, and scalable web applications.</p>
+                <div class="hero-stats">
+                    <div class="stat-box">
+                        <h2>2+</h2>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-box">
+                        <h2>15+</h2>
+                        <p>Projects Built</p>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#projects" class="neon-btn primary">View My Work</a>
+                    <a href="#contact" class="neon-btn secondary">Let's Talk</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="neon-ring"></div>
+                <!-- REPLACE the file name with your actual image -->
+                <img src="./img/Goodness.png" alt="Adeyemo Philip" class="hero-img" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80'">
+                <div class="floating-badge">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <span>Frontend Expert</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">01. WHO I AM</span>
+                <h2 class="section-title">Engineered for Performance &amp; Impact</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text glass-card">
+                    <p>
+                        I am a dedicated frontend developer and UI/UX enthusiast focused on building high-performance, accessible, and visually striking web applications.
+                    </p>
+                    <p>
+                        With deep expertise in modern CSS, JavaScript, and framework architectures, I bridge the gap between design and technical execution—turning complex requirements into seamless, lightning-fast digital experiences.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <span>Clean, Modular Code</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <span>Responsive Mobile-First Design</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <span>Optimized Load Speeds</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-stats-card glass-card">
+                    <div class="stat-box">
+                        <h3>100%</h3>
+                        <p>Commitment to Quality</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>24/7</h3>
+                        <p>System Reliability Focus</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>UI/UX</h3>
+                        <p>Pixel-Perfect Precision</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Me Section -->
+    <section id="why-choose" class="why-section">
+        <div class="section-header">
+            <span class="section-tag">+ WHY CHOOSE ME</span>
+            <h2>Why Clients Choose to Work With Me</h2>
+        </div>
+        <div class="cards-grid">
+            <div class="glass-card">
+                <div class="card-num">01</div>
+                <h3>Clean Modern Code</h3>
+                <p>Creating clean, modern interfaces using HTML5, CSS3, JavaScript, and Tailwind CSS focused on scalability and speed.</p>
+            </div>
+            <div class="glass-card">
+                <div class="card-num">02</div>
+                <h3>User Focused UX</h3>
+                <p>Design decisions driven by web standards, user needs, performance optimization, and seamless responsiveness.</p>
+            </div>
+            <div class="glass-card">
+                <div class="card-num">03</div>
+                <h3>Clear Communication</h3>
+                <p>Transparent collaboration, structured problem-solving, and precise updates throughout development lifecycles.</p>
+            </div>
+            <div class="glass-card">
+                <div class="card-num">04</div>
+                <h3>Quality Workflow</h3>
+                <p>Focused on clean architecture, robust deployment pipelines with Firebase v9, and GitHub version control.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="section-header">
+            <span class="section-tag">+ SERVICES</span>
+            <h2>My Creative Services Offered</h2>
+        </div>
+        <div class="services-container">
+            <div class="services-list">
+                <div class="service-item active" data-service="0" tabindex="0" role="button">
+                    <span>01</span>
+                    <h3>FRONTEND DEVELOPMENT</h3>
+                    <i class="fa-solid fa-minus"></i>
+                </div>
+                <div class="service-item" data-service="1" tabindex="0" role="button">
+                    <span>02</span>
+                    <h3>WEB APP ARCHITECTURE</h3>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="service-item" data-service="2" tabindex="0" role="button">
+                    <span>03</span>
+                    <h3>UI/UX IMPLEMENTATION</h3>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="service-item" data-service="3" tabindex="0" role="button">
+                    <span>04</span>
+                    <h3>RESPONSIVE OPTIMIZATION</h3>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="services-preview glass-card">
+                <h4>INCLUDES:</h4>
+                <ul id="service-details-list">
+                    <li><i class="fa-solid fa-circle"></i> High-performance Single Page Apps (SPAs)</li>
+                    <li><i class="fa-solid fa-circle"></i> Modern Tailwind &amp; CSS3 Styling</li>
+                    <li><i class="fa-solid fa-circle"></i> Firebase v9 Backend Integration</li>
+                    <li><i class="fa-solid fa-circle"></i> Cross-browser Compatibility</li>
+                </ul>
+                <a href="#contact" class="neon-btn primary small-btn">Let's Talk</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <span class="section-tag">+ MY PROJECTS</span>
+            <h2>My Recent Design Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card glass-card">
+                <div class="project-img-box">
+                    <img src="./img/student.png" alt="Freelance Platform">
+                </div>
+                <div class="project-info">
+                    <div>
+                        <h3>Freelance Platform Portal</h3>
+                        <p>A full-featured web app built with JavaScript and modern frontend workflows.</p>
+                    </div>
+                    <!-- Replace # with your live project link -->
+                    <a href="#" class="project-link" aria-label="View Freelance Platform Portal"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card glass-card">
+                <div class="project-img-box">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Examination Portal">
+                </div>
+                <div class="project-info">
+                    <div>
+                        <h3>Examination Portal System</h3>
+                        <p>Robust candidate assessment interface featuring real-time data handling.</p>
+                    </div>
+                    <!-- Replace # with your live project link -->
+                    <a href="#" class="project-link" aria-label="View Examination Portal System"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <span class="section-tag">+ CONTACT ME</span>
+            <h2>Talk About Your Design Idea</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-visual">
+                <img src="./img/Goodness2.png" alt="Adeyemo Philip" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80'">
+                <div class="neon-wave"></div>
+                <div class="contact-info">
+                    <a href="https://wa.me/2349050526254" target="_blank" rel="noopener" class="contact-info-item">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>+234 905 052 6254</span>
+                    </a>
+                    <a href="mailto:philipadeyemo16@gmail.com" class="contact-info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>philipadeyemo16@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+
+            <form class="contact-form glass-card" id="contactForm" novalidate>
+                <div class="input-group">
+                    <label for="visitorName" class="sr-only">Full name</label>
+                    <input type="text" id="visitorName" name="name" placeholder="Full Name" autocomplete="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="visitorEmail" class="sr-only">Email address</label>
+                    <input type="email" id="visitorEmail" name="email" placeholder="Email Address" autocomplete="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="visitorPhone" class="sr-only">Phone number</label>
+                    <input type="tel" id="visitorPhone" name="phone" placeholder="Phone Number (optional)" autocomplete="tel">
+                </div>
+                <div class="input-group">
+                    <label for="visitorMessage" class="sr-only">Message</label>
+                    <textarea id="visitorMessage" name="message" placeholder="Tell me about your project..." rows="4" required></textarea>
+                </div>
+
+                <fieldset class="checkbox-group">
+                    <legend>I'm interested in:</legend>
+                    <label><input type="checkbox" name="service" value="Frontend Development"> Frontend Dev</label>
+                    <label><input type="checkbox" name="service" value="Web App"> Web App</label>
+                    <label><input type="checkbox" name="service" value="UI Implementation"> UI Implementation</label>
+                    <label><input type="checkbox" name="service" value="Responsive Design"> Responsive Design</label>
+                </fieldset>
+
+                <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+
+                <div class="form-actions">
+                    <button type="submit" class="neon-btn primary full-width">
+                        <i class="fa-brands fa-whatsapp"></i> Send via WhatsApp
+                    </button>
+                    <button type="button" class="neon-btn secondary full-width" id="emailBtn">
+                        <i class="fa-solid fa-envelope"></i> Send via Email
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <form class="newsletter-box" id="newsletterForm">
+                    <input type="email" id="newsletterEmail" placeholder="Enter your email here" aria-label="Email for newsletter" required>
+                    <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+                <p class="newsletter-status" id="newsletterStatus" role="status"></p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Social Links</h4>
+                <ul>
+                    <!-- Replace with your own profile URLs -->
+                    <li><a href="https://github.com/goodness-design" target="_blank" rel="noopener">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank" rel="noopener">LinkedIn</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p><i class="fa-solid fa-phone"></i> +234 (0) 905 052 6254</p>
+                <p><i class="fa-solid fa-envelope"></i> philipadeyemo16@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ADEYEMO PHILIP. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
